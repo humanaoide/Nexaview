@@ -149,7 +149,7 @@ const products: Record<Category, Product[]> = {
       name: 'LensQi Pro+ - Obsidian',
       description: 'NexaView LensQi Pro+: Experience the future with seamless holographic AR, transparent solar lenses, and an impossibly light aerogel-reinforced frame.',
       price: '₹25000',
-      image: encodeURI('/pro+/pro+ obsidion.jpg'),
+      image: '/pro+/pro+ obsidion.jpg',
       color: 'Obsidian'
     },
     {
