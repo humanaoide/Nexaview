@@ -55,7 +55,7 @@ const Team = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {teamMembers.map((member, index) => (
-            <Card key={index} className="text-center animate-slide-up" style={{ animationDelay: `${index * 0.1}s` }}>
+            <Card key={index} className="text-center animate-slide-up" style={{ '--animation-delay': `${index * 0.1}s` } as React.CSSProperties}>
               <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gray-700 overflow-hidden border-4 border-neon-orange/50">
                 <img
                   src={member.image}

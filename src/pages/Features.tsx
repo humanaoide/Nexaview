@@ -58,7 +58,7 @@ const Features = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, index) => (
-            <Card key={index} className="animate-slide-up" style={{ animationDelay: `${index * 0.1}s` }}>
+            <Card key={index} className="animate-slide-up" style={{ '--animation-delay': `${index * 0.1}s` } as React.CSSProperties}>
               <div className="text-5xl mb-4 text-center">{feature.icon}</div>
               <h3 className="text-xl font-semibold text-neon-blue mb-3 text-center">
                 {feature.title}
