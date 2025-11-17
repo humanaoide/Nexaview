@@ -149,42 +149,42 @@ const products: Record<Category, Product[]> = {
       name: 'LensQi Pro+ - Obsidian',
       description: 'NexaView LensQi Pro+: Experience the future with seamless holographic AR, transparent solar lenses, and an impossibly light aerogel-reinforced frame.',
       price: '₹25000',
-      image: '/pro+/pro+ obsidion.jpg',
+      image: encodeURI('/pro+/pro+ obsidion.jpg'),
       color: 'Obsidian'
     },
     {
       name: 'LensQi Pro+ - Platinum',
       description: 'NexaView LensQi Pro+: Experience the future with seamless holographic AR, transparent solar lenses, and an impossibly light aerogel-reinforced frame.',
       price: '₹24000',
-      image: '/pro+/pro+ platinium.jpg',
+      image: encodeURI('/pro+/pro+ platinium.jpg'),
       color: 'Platinum'
     },
     {
       name: 'LensQi Pro+ - Sapphire',
       description: 'NexaView LensQi Pro+: Experience the future with seamless holographic AR, transparent solar lenses, and an impossibly light aerogel-reinforced frame.',
       price: '₹24500',
-      image: '/pro+/pro+ sapphire.jpg',
+      image: encodeURI('/pro+/pro+ sapphire.jpg'),
       color: 'Sapphire'
     },
     {
       name: 'LensQi Pro+ - Ruby',
       description: 'NexaView LensQi Pro+: Experience the future with seamless holographic AR, transparent solar lenses, and an impossibly light aerogel-reinforced frame.',
       price: '₹26000',
-      image: '/pro+/pro+ ruby.jpg',
+      image: encodeURI('/pro+/pro+ ruby.jpg'),
       color: 'Ruby'
     },
     {
       name: 'LensQi Pro+ - Diamond',
       description: 'NexaView LensQi Pro+: Experience the future with seamless holographic AR, transparent solar lenses, and an impossibly light aerogel-reinforced frame.',
       price: '₹27000',
-      image: '/pro+/pro+ dimond.jpg',
+      image: encodeURI('/pro+/pro+ dimond.jpg'),
       color: 'Diamond'
     },
     {
       name: 'LensQi Pro+ - Onyx',
       description: 'NexaView LensQi Pro+: Experience the future with seamless holographic AR, transparent solar lenses, and an impossibly light aerogel-reinforced frame.',
       price: '₹28000',
-      image: '/pro+/pro+ onyx.jpg',
+      image: encodeURI('/pro+/pro+ onyx.jpg'),
       color: 'Onyx'
     }
   ]
