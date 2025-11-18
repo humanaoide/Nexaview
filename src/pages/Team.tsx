@@ -17,7 +17,7 @@ const teamMembers: TeamMember[] = [
   {
     name: 'MD. EHSAAN',
     role: 'COO & FOUNDER',
-    image: '/team/EHSAAN.jpg',
+    image: '/team/EHSAAN.jpeg',
     bio: ' leads the operational engine of our organization. He is responsible for ensuring that NexaView technical vision is implemented on the ground with efficiency and stability'
   },
   {
@@ -33,9 +33,9 @@ const teamMembers: TeamMember[] = [
     bio: 'class 11 pcm students, Dream graduation from IIT Bombay B-Tech computer science engineering. JEE Aspirants. financial head.'
   },
   {
-    name: 'ALVIN JR',
+    name: 'AYUSH YADAV',
     role: 'HR & FOUNDER',
-    image: '/team/ALVIN JR (1).jpg',
+    image: '/team/AYUSH YADAV.jpeg',
     bio: 'Overseeing talent strategy, culture development, and operational excellence to support our mission of creating innovative, future-driven technology. Dedicated to building a high-performance team and guiding the people who power NexaView vision. HR for a reason'
   }
 ]
